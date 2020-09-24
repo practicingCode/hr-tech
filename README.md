@@ -1,4 +1,4 @@
-#getting started
+# getting started
 1. Start mongoDB
     db_name: CrudDB
     collections: 
@@ -13,8 +13,8 @@
    run "node app.js"
 4. open frontend folder
    run ng serve
-     localhost:4200/login
-====================
+     localhost:4200/login     
+  _________________________________
 To see CRUD function, use POST MAN
  **Employees**
  C - [POST] localhost:3000/employees
@@ -90,10 +90,10 @@ To see CRUD function, use POST MAN
 	
     }
  D - [DELETE] localhost:3000/organizations/id
- 
+     
 --------------------
-# Original Task
----------------------
+# Original Task   
+---------------------   
 # FullStack Test
 
 Full-stack application development task. Front-End should be develop in Angular(version 9 or later), Back-End should be develop using Node-JS(Express.js), Database can be used either MySQL / MongoDB. Coding should be done using "camelCase" standard. Each function & business logic should have proper commenting. All information should be stored into the database. UI should be responsive for difference display like, large desktop, laptop, tablet, mobile screen.
