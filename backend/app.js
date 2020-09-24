@@ -9,6 +9,11 @@ const passport = require('passport');
 
 const rtsIndex = require('./routes/index.router');
 
+//controllers
+var employeeController = require('./controllers/employeeController.js');
+var departmentController = require('./controllers/departmentController.js');
+var organizationController = require('./controllers/organizationController.js');
+
 var app = express();
 //middleware
 app.use(bodyParser.json());
@@ -28,3 +33,9 @@ app.use((err, req, res, next)=>{
 
 // start server
 app.listen(process.env.PORT, () => console.log(`Server started at port : ${process.env.PORT}`));
+
+
+//controllers
+app.use('/employees', employeeController);
+app.use('/departments', departmentController);
+app.use('/organizations', organizationController);

@@ -1,13 +1,13 @@
 {
     "development":{
         "PORT": 3000,
-        "MONGODB_URI": "mongodb://localhost:27017/auth",
+        "MONGODB_URI": "mongodb://localhost:27017/CrudDB",
         "JWT_SECRET": "password123",
         "JWT_EXP": "10m"
     },
     "production:":{
         "PORT": 80,
-        "MONGODB_URI": "mongodb://xyz/auth",
+        "MONGODB_URI": "mongodb://xyz/CrudDB",
         "JWT_SECRET": "password123",
         "JWT_EXP": "10m"
     }
