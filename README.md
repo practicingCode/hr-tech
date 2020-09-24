@@ -86,8 +86,7 @@ To see CRUD function, use POST MAN
         "address": "china town",  
         "city": "Singapore",  
         "state": "Singapore",  
-        "country": "SG"  
-	  
+        "country": "SG"  	  
     }  
  D - [DELETE] localhost:3000/organizations/id  
        
