@@ -16,82 +16,82 @@
      localhost:4200/login     
   _________________________________
 To see CRUD function, use POST MAN
- **Employees**
- C - [POST] localhost:3000/employees
-     JSON is as follows:
-        {
-        "organizationName": "reSync",
-        "departmentName": "IT team",
-        "firstName": "lalalal",
-        "lastName": "TellTubby",
-        "DOB": "22/10/1780",
-        "workTitle": "Front End developer"
-        }
- R - [GET] localhost:3000/employees
-   - [GET] localhost:3000/employees/id
- U - [PUT] localhost:3000/employees/id
-     JSON is as follows:
-        {
-        "organizationName": "reSync",
-        "departmentName": "IT team",
-        "firstName": "lalalal",
-        "lastName": "TellTubby",
-        "DOB": "22/10/1780",
-        "workTitle": "Front End developer"
-        }
- D - [DELETE] localhost:3000/employees/id
+ **Employees**  
+ C - [POST] localhost:3000/employees  
+     JSON is as follows:  
+        {  
+        "organizationName": "reSync",  
+        "departmentName": "IT team",  
+        "firstName": "lalalal",  
+        "lastName": "TellTubby",   
+        "DOB": "22/10/1780",  
+        "workTitle": "Front End developer"  
+        }  
+ R - [GET] localhost:3000/employees  
+   - [GET] localhost:3000/employees/id  
+ U - [PUT] localhost:3000/employees/id  
+     JSON is as follows:  
+        {  
+        "organizationName": "reSync",  
+        "departmentName": "IT team",  
+        "firstName": "lalalal",  
+        "lastName": "TellTubby",  
+        "DOB": "22/10/1780",  
+        "workTitle": "Front End developer"  
+        }  
+ D - [DELETE] localhost:3000/employees/id  
+   
+ **Departments**  
+  C - [POST] localhost:3000/departments  
+     JSON is as follows:  
+     {  
+     "organizationName": "reSync",  
+     "departmentName": "AI TEAM",  
+     "description": "Make coputers smarter",  
+     "workingTime": "10am-7pm",  
+     "workingDays": "5 day week"  
+	    }  
+ R - [GET] localhost:3000/departments   
+   - [GET] localhost:3000/departments/id  
+ U - [PUT] localhost:3000/departments/id  
+     JSON is as follows:  
+     {  
+     "organizationName": "reSync",  
+     "departmentName": "AI TEAM",  
+     "description": "Make coputers smarter",  
+     "workingTime": "10am-7pm",  
+     "workingDays": "5 day week"  
+     }  
+ D - [DELETE] localhost:3000/departments/id  
  
- **Departments**
-  C - [POST] localhost:3000/departments
-     JSON is as follows:
-     {
-     "organizationName": "reSync",
-     "departmentName": "AI TEAM",
-     "description": "Make coputers smarter",
-     "workingTime": "10am-7pm",
-     "workingDays": "5 day week"
-	    }
- R - [GET] localhost:3000/departments
-   - [GET] localhost:3000/departments/id
- U - [PUT] localhost:3000/departments/id
-     JSON is as follows:
-     {
-     "organizationName": "reSync",
-     "departmentName": "AI TEAM",
-     "description": "Make coputers smarter",
-     "workingTime": "10am-7pm",
-     "workingDays": "5 day week"
-     }
- D - [DELETE] localhost:3000/departments/id
  
- 
-  *Organizations**
-  C - [POST] localhost:3000/organizations
-     JSON is as follows:
-     {
-		    "organizationName": "reSync",
-        "owner": "Dr.Jay",
-        "address": "china town",
-        "city": "Singapore",
-        "state": "Singapore",
-        "country": "SG"
-	  }
- R - [GET] localhost:3000/organizations
-   - [GET] localhost:3000/organizations/id
- U - [PUT] localhost:3000/organizations/id
-     JSON is as follows:
-     {
-		"organizationName": "reSync",
-        "owner": "Dr.Jay",
-        "address": "china town",
-        "city": "Singapore",
-        "state": "Singapore",
-        "country": "SG"
-	
-    }
- D - [DELETE] localhost:3000/organizations/id
-     
---------------------
+  *Organizations**  
+  C - [POST] localhost:3000/organizations  
+     JSON is as follows:  
+     {    
+        "organizationName": "reSync",  
+        "owner": "Dr.Jay",  
+        "address": "china town",  
+        "city": "Singapore",  
+        "state": "Singapore",  
+        "country": "SG"   
+	  }  
+ R - [GET] localhost:3000/organizations  
+   - [GET] localhost:3000/organizations/id  
+ U - [PUT] localhost:3000/organizations/id  
+     JSON is as follows:  
+     {  
+	"organizationName": "reSync",  
+        "owner": "Dr.Jay",  
+        "address": "china town",  
+        "city": "Singapore",  
+        "state": "Singapore",  
+        "country": "SG"  
+	  
+    }  
+ D - [DELETE] localhost:3000/organizations/id  
+       
+--------------------  
 # Original Task   
 ---------------------   
 # FullStack Test
